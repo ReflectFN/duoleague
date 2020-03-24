@@ -5,7 +5,7 @@ const bot = new Discord.Client({disableEveryone: true});
 
 bot.on("ready", async () => {
     console.log(`${bot.user.username} is online`)
-    bot.user.setActivity("!help | Duo League", {type: "PLAYING"});
+    bot.user.setActivity("!help | Reflect is Cute", {type: "PLAYING"});
 })
 
 const fs = require("fs");
